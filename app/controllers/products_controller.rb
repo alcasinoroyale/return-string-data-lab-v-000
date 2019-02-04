@@ -12,5 +12,6 @@ class ProductsController < ApplicationController
     @product = Product.create(product_params)
     @product.save
     redirect_to products_path
+  end
 
 end
