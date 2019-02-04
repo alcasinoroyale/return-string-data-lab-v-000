@@ -4,6 +4,8 @@ class ProductsController < ApplicationController
     @products = Product.all
   end
 
-  def inventory
-    product = Product.find(params[:id])
+  def new
+    @product = Product.new
+
+
 end
